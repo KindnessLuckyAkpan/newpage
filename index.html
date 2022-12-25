@@ -11,11 +11,11 @@
 </head>
 
 <body>
-  <header class="" style="background-image: url(./images/Bg.png); background-size: cover;  width: 100%;">
+  <header class="" style="background-image: url(./images/Bg.png); background-size: cover;  width: 100%; height: 60%;">
     <!-- place navbar here -->
     <nav class="navbar navbar-expand-lg bg-danger bg-opacity-25">
       <div class="container">
-        <a class="navbar-brand text-light" href="#"><img src="./images/sky.png" alt="">CLOUDBUDGET</a>
+        <a class="navbar-brand text-light" href="#"><img src="./images/sky.png" alt="" class="me-2"><h6>CloudBudget</h6></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,7 +39,7 @@
           </ul>
           <div class="dropdown">
             <button class="btn btn dropdown-toggle text-light me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="./images/flag.png" alt="">EN
+              <img src="./images/flag.png" alt="" class="me-2">EN
             </button>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -59,7 +59,7 @@
                       <h3 class="">CloudBudget</h3>
                       <p>Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of 
                         Up to €4.99</p>
-                        <a><button type="button" class="btn bg-white text-danger px-5 mb-4">SIGN IN</button></a>
+                        <a><button type="button" class="btn bg-white text-danger px-5 mb-4">SIGN UP</button></a>
                   </div>
               </div>
           </div>
@@ -71,42 +71,48 @@
         <div class="col-lg-5">
           <h3>Easy to Use Cloud Budget<br>Management Software</h3> 
           <h6 class="mt-5">Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.</h6>
-          <button class="text-danger border border-none mt-5" >Learn more</button>
+         <a name="" id="" class="btn btn text-danger mt-5" href="#" role="button">Learn more</a>
         </div>
          <div class="col-lg-5 ">
           <img src="./images/Video.png" alt="" style="width: 100%;">
         </div> 
       </div>
     </div>
-    <div class="container bg-light mt-5">
-      <div class="text-center mt-3">
-        <h3>Feature</h3>
-      </div>
-      <div class="row mt-5">
+    <div class="container-fluid bg-light">
+      <!-- <div class="text-center mt-5">
+        <h3 class="">Feature</h3>
+      </div> -->
+      <div class="row mt-5 mx-5">
+        <div class="text-center mt-5">
+          <h3 class="mb-5">Feature</h3>
+        </div>
         <div class="col-sm-4"><img src="./images/Card1.png" alt="" style="width: 100%;"></div>
         <div class="col-sm-4"><img src="./images/Card2.png" alt="" style="width: 100%;"></div>
         <div class="col-sm-4"><img src="./images/Card3.png" alt="" style="width: 100%;"></div>
       </div>
     </div>
-    <div class="container">
-      <div class="text-center mt-3">
+    <div class="container-fluid">
+      <!-- <div class="text-center">
         <h3>Technology</h3>
-      </div>
-      <div class="row justify-content-center align-items-center ps-3">
-        <div class="col"><img src="./images/Cloud.png" alt=""></div>
-        <div class="col"><img src="./images/Secure.png" alt=""></div>
-        <div class="col"><img src="./images/PDF.png" alt=""></div>
-        <div class="col"><img src="./images/CSV.png" alt=""></div>
+      </div> -->
+      <div class="row justify-content-center align-items-center mt-5">
+        <div class="text-center mt-3">
+          <h3>Technology</h3>
+        </div>
+        <div class="col ms-3"><img src="./images/Cloud.png" alt=""></div>
+        <div class="col ms-3"><img src="./images/Secure.png" alt=""></div>
+        <div class="col ms-3"><img src="./images/PDF.png" alt=""></div>
+        <div class="col ms-3"><img src="./images/CSV.png" alt=""></div>
       </div>
     </div>
-    <div class="container bg-danger mt-5 mb-5 pb-5 ">
-      <div class="row gx-2 gy-4 gap-4 justify-content-center align-items-end  flex-lg-row flex-md-row flex-column-reverse flex-md-column-reverse">
+    <div class="container-fluid bg-danger mt-5 mb-5 pb-5">
+      <div class="row mx-5 gx-2 gy-4 gap-4 justify-content-center align-items-end  flex-lg-row flex-md-row flex-column-reverse flex-md-column-reverse">
         <div class="col-lg-6 py-5 text-white">
           <h3>Stay focused on saving money</h3>
           <p>It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
           <div class="col mt-5">
-            <img src="./images/playstore.png" alt="">
-            <img src="./images/apple.png" alt="">
+            <img src="./images/playstore.png" alt="" class="me-1">
+            <img src="./images/apple.png" alt="" class="me-1">
             <img src="./images/windows.png" alt="">
           </div>
         </div>
@@ -143,8 +149,8 @@
               
             </div>
             <div class="col-lg-12">
-              
-             <select name="" class="form-select  form-control-lg" id=""></select>              
+              <input type="select" class="form-control mt-3" id="phone" placeholder="phone number">
+                         
             </div>
           </form>
           <button type="button" class="btn btn-danger mt-3 mb-5">SUBMIT NOW</button>
@@ -162,9 +168,9 @@
     <!-- place footer here -->
     <footer>
       
-    <div class="container mt-5 bg-light" style="width: 100%;">
-      <div class="row">
-        <div class="col-lg-3">
+    <div class="container-fluid mt-5 bg-light" style="width: 100%;">
+      <div class="row mx-4 mt-5">
+        <div class="col-lg-3 mt-3">
           <p class="ms-4 fw-bold">Address</p>
           <ul style="list-style: none;">
             <li>Pipang Ltd, Griva Digeni,</li>
@@ -172,7 +178,7 @@
             <li>1090 picosia USA</li>
           </ul>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 mt-3">
          <p class="ms-4 fw-bold">Service</p>
           <ul style="list-style: none;">
             <li>Overview</li>
@@ -182,7 +188,7 @@
             <li>Privacy</li>
           </ul>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 mt-3">
           <p class="ms-4 fw-bold">Geet in touch</p>
           <ul style="list-style: none;">
             <li>info@cloudbudget.com</li>
@@ -196,7 +202,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 mt-3">
           <p class="ms-4 fw-bold">We support</p>
           <ul style="list-style: none;">
             <li><img src="./images/securep.png" alt=""></li>
